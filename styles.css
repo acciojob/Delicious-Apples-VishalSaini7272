@@ -1,1 +1,82 @@
 /* your code here */
+body{
+	background-color: lightgreen;
+}
+.product{
+	height:500px;
+	width:500px;
+	border:1px;
+	background-color:white;
+	margin:auto;
+	margin-top:50px;
+	display:flex;
+}
+
+.product__photo{
+	 transform: translateY(30px);
+}
+.photo-container{
+	height:350px;
+	width: 250px;
+	background-color:green;
+	transform: translateX(-50px);
+	/* margin-top:0px; */
+	/* align-items: center; */
+	/* align-content:center; */
+	/* margin-top:0px; */
+}
+
+.photo-main{
+	align-content:center;
+		transform: translateX(-100px);
+
+}
+.photo-album {
+	display:flex;
+	height:100px;
+	width:250px;
+	/* transform: rotate(90deg);  */
+	justify-content:center;
+	align-items:center;
+	background-color:white;
+			transform: translateY(-25px);
+	
+}
+
+ul{
+	display:flex;
+	justify-content:center;
+			transform: translateX(-10px);
+}
+
+.product__info{
+	margin-top:40px;
+	/* margin-left: 0px; */
+			transform: translate(-30px,-30px);
+			/* transform: translateY(-30px); */
+}
+
+.price{
+	color:red;
+	font-size:3em;
+			transform: translateY(20px);
+}
+.variant{
+			transform: translateY(20px);
+}
+
+.description{
+	display:flex;
+	/* flex-wrap:wrap; */
+			/* transform: translateX(40px); */
+			transform: translateY(20px);
+}
+
+button{
+	width: 200px;
+	height:80px;
+			transform: translate(-250px,400px);
+	background-color:red;
+	color:white;
+	border-radius:10px;
+}
