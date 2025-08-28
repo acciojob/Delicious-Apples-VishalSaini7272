@@ -72,7 +72,7 @@ ul{
 			transform: translateY(20px);
 }
 
-button{
+.add-to-cart{
 	width: 200px;
 	height:80px;
 			transform: translate(-250px,400px);
